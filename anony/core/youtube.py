@@ -20,8 +20,8 @@ from AnonXMusic.utils.formatters import time_to_seconds
 
 from config import API_URL, VIDEO_API_URL, API_KEY
 
-API_BASE_URL = "https://riyabots.site"
-API_KEY = os.getenv("YT_API_KEY", "StrangerApie9eee51")
+API_BASE_URL = "https://api.thequickearn.xyz"
+API_KEY = os.getenv("YT_API_KEY", "NxGBNexGenBots77980e")
 def cookie_txt_file():
     cookie_dir = f"{os.getcwd()}/cookies"
     if not os.path.exists(cookie_dir):
