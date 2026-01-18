@@ -11,6 +11,9 @@ class Config:
         self.BOT_TOKEN = getenv("BOT_TOKEN")
         self.MONGO_URL = getenv("MONGO_URL")
 
+YOUR_API_KEY = getenv("YOUR_API_KEY", "StrangerApie9eee51")
+YOUR_API_URL = getenv("YOUR_API_URL", "https://riyabots.site")
+
         self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
         self.OWNER_ID = int(getenv("OWNER_ID", 0))
 
