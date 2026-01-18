@@ -20,7 +20,9 @@ from AnonXMusic.utils.formatters import time_to_seconds
 
 from config import API_URL, VIDEO_API_URL, API_KEY
 
-
+API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
+API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 def cookie_txt_file():
     cookie_dir = f"{os.getcwd()}/cookies"
     if not os.path.exists(cookie_dir):
